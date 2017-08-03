@@ -1,0 +1,41 @@
+
+div.head{
+	border: 1px solid pink;
+	height: 10%;
+}
+
+nav ul{
+
+	list-style-type: none;
+	margin-left: 60%;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	margin-bottom: -123px;
+
+}
+.top img{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	
+
+}
+li{
+	float: left;
+}
+li a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+
+}
+ li a:hover{
+
+	background: orange;
+}

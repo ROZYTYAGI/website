@@ -1,0 +1,122 @@
+body{
+	background: tan;
+	color: pink;
+	font-family: "Alegreya";
+	margin:: 0;
+
+}
+
+p{
+	font-size: 16%;
+	font-weight: 160%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+img{
+	max-width: 100%;
+
+	
+	margin-bottom: -4px;
+}
+header{
+	background-color: goldenrod;
+	width: 100%;
+	height: 86px;
+
+}
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#logo{
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: url(index.jpeg) no-repeat center;
+}
+nav{
+	float: right;
+	padding: 25px 20px 0 0;
+
+}
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url() center;
+}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	list-style-type: none;
+}
+nav ul li{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: black;
+}
+.current{
+	color: black;
+}
+.banner{
+	width: 100%;
+	background-color: white;
+}
+.banner-inner{
+	max-width: 100%;
+	margin: 0 auto;
+}
+#sidebar{
+	background-color: gray;
+}
+table,th,td{
+	border: 1px none;
+	border-collapse: collapse; 
+}
+
+
+table#col tr:nth-child {  
+    background-color: white;  
+}  
+ 
+table#col th {  
+    color: white;  
+    background-color: gray;  
+ 
+}
+footer{
+	background-color: goldenrod;
+	width: 100%;
+	height: 10%;
+
+}
+.social{
+	list-style-type: none;
+	text-align: center;
+}
+.social li{
+	display: inline;
+}
+.social i{
+	font-size: 46px;
+	margin: 1%;
+	padding: 5% 5% 5% 5%;
+	color: white;
+}
+.social i:hover{
+
+
+	color: black;
+}
